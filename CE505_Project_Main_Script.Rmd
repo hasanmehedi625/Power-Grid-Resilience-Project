@@ -95,8 +95,6 @@ plot_outage_map(eaglei.2021, "Louisiana", "LA", "13-2-2021", "23-2-2021")
 
 ```
 
-
-
 ```{r}
 eaglei.2017 <- read_csv("eaglei_outages_2017.csv") %>% 
   rename(datetime = run_start_time)
@@ -118,8 +116,3 @@ plot_outage_timeseries(eaglei.2017, "Florida", "8-9-2017", "20-9-2017")
 ```{r}
 plot_outage_map(eaglei.2017, "Florida", "FL", "8-9-2017", "20-9-2017")
 ```
-
-```{r}
-
-```
-
